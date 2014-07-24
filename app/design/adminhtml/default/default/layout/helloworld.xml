@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <crmutil_adminhtml_crmutil_index>
+        <reference name="content">
+            <block type="crmutil/adminhtml_example_edit" name="example_edit"/>
+        </reference>
+    </crmutil_adminhtml_crmutil_index>
+</layout>

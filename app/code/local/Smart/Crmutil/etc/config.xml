@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <smart_crmutil>
+            <version>
+                0.1.0
+            </version>
+        </smart_crmutil>
+    </modules>
+    <global>
+        <blocks>
+            <crmutil>
+                    <class>Smart_Crmutil_Block</class>
+            </crmutil>
+        </blocks>
+        <helpers>
+            <crmutil>
+                <class>Smart_Crmutil_Helper</class>
+            </crmutil>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <!-- the <helloworld> tagname appears to be arbitrary, but by
+            convention is should match the frontName tag below-->
+            <crmutil>
+                <use>standard</use>
+                <args>
+                    <module>Smart_Crmutil</module>
+                    <frontName>crmutil</frontName>
+                </args>
+            </crmutil>
+        </routers>
+        <layout>
+            <updates>
+                <crmutil>
+                    <file>helloworld.xml</file>
+                </crmutil>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <layout>
+            <updates>
+                <crmutil>
+                    <file>helloworld.xml</file>
+                </crmutil>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

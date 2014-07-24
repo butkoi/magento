@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Smart_Crmutil>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Smart_Crmutil>
+    </modules>
+</config>

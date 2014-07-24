@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <crmutil translate="title" module="crmutil">
+            <title>CRM Util</title>
+            <sort_order>35</sort_order>
+            <action>crmutil/adminhtml_crmutil</action>
+        </crmutil>
+    </menu>
+</config>
